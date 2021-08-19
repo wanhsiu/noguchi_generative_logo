@@ -1,0 +1,51 @@
+body {
+    background: #FFFFFF;
+}
+
+#canvas {
+    position: relative;
+    margin: 0 auto;
+}
+
+#center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1px;
+    height: 1px;
+    background: red;
+}
+
+.letter {
+    position: absolute;
+    font-family: "acumin-pro-wide", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 65px;
+}
+
+#submitbutton {
+    margin: 30px;
+    /* width: 150px;
+    height: 40px; */
+    font-size: 18px;
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 800;
+    font-style: normal;   
+    border-radius: 60px;
+    padding: 10px 30px;
+    text-align: center;
+  }
+
+  #myButton {
+    margin: 30px;
+    /* width: 200px;
+    height: 40px; */
+    font-size: 18px;
+    font-family: acumin-pro-wide, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    border-radius: 60px;
+    padding: 10px 30px;
+    text-align: center;
+  }
